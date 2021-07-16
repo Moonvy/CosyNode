@@ -1,0 +1,33 @@
+{
+    "name": "cosynode",
+    "version": "1.1.0",
+    "main": "index.js",
+    "license": "MIT",
+    "files": [
+        "exe",
+        "src",
+        "node"
+    ],
+    "bin": "src/cli.js",
+    "scripts": {
+        "cli": "node ./src/cli.js ./test/sample/index.js ./dist --name=myApp --node-version=5 --upx ",
+        "cli-list": "node ./src/cli.js list --size",
+        "cli-help": "node ./src/cli.js --help"
+    },
+    "author": {
+        "name": "moonvy",
+        "email": "staff@me.moonvy.com",
+        "url": "https://github.com/moonvy"
+    },
+    "repository": "https://github.com/Moonvy/CosyNode",
+    "devDependencies": {},
+    "dependencies": {
+        "chalk": "^4.1.1",
+        "commander": "^8.0.0",
+        "extract-zip": "^2.0.1",
+        "filesize": "^6.4.0",
+        "fs-extra": "^10.0.0",
+        "ora": "^5.4.1",
+        "treeify": "^1.1.0"
+    }
+}

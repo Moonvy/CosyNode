@@ -1,0 +1,17 @@
+{
+    "name": "cosynode-nodejs-windows",
+    "version": "1.1.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+    },
+    "author": {
+        "name": "moonvy",
+        "email": "staff@me.moonvy.com",
+        "url": "https://github.com/moonvy"
+    },
+    "repository": "https://github.com/Moonvy/CosyNode",
+    "devDependencies": {},
+    "dependencies": {
+    }
+}
