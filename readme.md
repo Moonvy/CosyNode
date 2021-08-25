@@ -1,4 +1,4 @@
-# CosyNode
+# 🍧 CosyNode
 
 <p align="center"><img src="./cover.jpg" height="300px"></p>
 
